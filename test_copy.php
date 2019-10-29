@@ -72,7 +72,7 @@ if (isset($_SERVER['MAGE_IS_DEVELOPER_MODE'])) {
 
 #ini_set('display_errors', 1);
 
-umask(0);
+xoa unmask va thay bang dong nay
 
 /* Store or website code */
 $mageRunCode = isset($_SERVER['MAGE_RUN_CODE']) ? $_SERVER['MAGE_RUN_CODE'] : '';
@@ -81,3 +81,4 @@ $mageRunCode = isset($_SERVER['MAGE_RUN_CODE']) ? $_SERVER['MAGE_RUN_CODE'] : ''
 $mageRunType = isset($_SERVER['MAGE_RUN_TYPE']) ? $_SERVER['MAGE_RUN_TYPE'] : 'store';
 
 Mage::run($mageRunCode, $mageRunType);
+them 1 dong vao cuoi file test_copy
